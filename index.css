@@ -1,0 +1,35 @@
+
+body {
+  background-color: #eeecec;
+}
+
+.content {
+  max-width: 250px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.image-text-container {
+
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.logo-image {
+  display: block;
+  max-width: 240px;
+}
+
+.join-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
