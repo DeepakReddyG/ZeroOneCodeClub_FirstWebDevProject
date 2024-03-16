@@ -1,0 +1,153 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgba(236, 229, 229, 0.468);
+}
+
+.form{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* justify-content: center; */
+    
+}
+.main{
+    width: 18%;
+    margin-top: 6vh;
+    height: 40vh;
+    background-color:white;
+    padding: 1.5rem;
+
+}
+.header-logo>img{
+    width: 20%;
+    font-weight: 900;
+    height: 70%;
+}
+.header-logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-define{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    /* font-weight: 530; */
+}
+.input>p{
+    color: rgb(103, 101, 101) ;
+    margin-bottom: 0.5rem;
+}
+.input-one>input{
+    width: 100%;
+    font-size: 1rem;
+    height: 3rem;
+    background-color:  rgb(250, 244, 244);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    display: flex;
+    padding-left: 0.8rem;
+    border: none;
+    outline: none;
+}
+.input-one>input[type="text"]:hover{
+    border: 1px solid rgb(79,166,247) ;
+}
+.input-one>input[type="text"]::before{
+    outline: none;
+    border: none;
+}
+.input-one>input[type="text"]:focus{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(79, 166, 247);
+}
+
+.phone-number{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1rem;
+
+}
+.phone-number>p>a{
+    text-decoration: none;
+    color: rgb(79, 166, 247);
+
+}
+
+.next{
+    background-color: rgb(79,166,247);
+    text-align: center;
+    margin: 1.5rem auto;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    border-radius: 1.5rem;
+}
+.next:hover{
+    background-color: rgb(28, 109, 185);
+}
+.next>p{
+    color: white;
+    font-weight: 800;
+}
+.new{
+    margin-top: 1.5rem;
+}
+.new>p{
+    font-size: 1.2rem;
+}
+.new>p>a{
+    text-decoration: none;
+    color: black;
+}
+.new>p>a:hover{
+    text-decoration: underline;
+}
+.info{
+    margin: auto;
+    height: 30vh;
+    width: 100%;
+    background-color: white;
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    
+}
+.information{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    /* background-color: aqua; */
+}
+.one,.two,.three,.four{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    height: 100%;
+    row-gap: 0.5rem;
+}
+
+.one-one,.two-one,.three-one,.four-one p{
+    font-size: 1.1rem;
+    font-weight: bold;  
+}
+
