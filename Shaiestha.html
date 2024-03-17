@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shaiestha's Signup Portal</title>
+        <link rel="stylesheet" href="https://codepen.io/gymratpacks/pen/VKzBEp#0">
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="Shaiestha.css">
+    </head>
+    <body>
+      <div class="row">
+    <div class="col-md-12">
+      <form action="index.html" method="post">
+        <h1> Sign Up </h1>
+        
+        <fieldset>
+          
+          <legend><span class="number">1</span> Your Basic Info</legend>
+        
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name">
+        
+          <label for="email">Email:</label>
+          <input type="email" id="mail" name="user_email">
+       
+          <label for="password">Password:</label>
+          <input type="password" id="password"       name="user_password">
+        
+          <label>Age:</label>
+          <input type="radio" id="under_13" value="under_13" name="user_age"><label for="under_13" class="light">Under 13</label><br>
+          <input type="radio" id="over_13" value="over_13" name="user_age"><label for="over_13" class="light">Over 13</label>
+          
+        </fieldset>
+        <fieldset>  
+        
+          <legend><span class="number">2</span> Your Profile</legend>
+          
+         <label for="bio">Bio:</label>
+          <textarea id="bio" name="user_bio"></textarea>
+        
+       
+        
+         <label for="Student">Student Role:</label>
+          <select id="Student" name="user_Student">
+            <optgroup label="Student Type">
+              <option value="Nursey Student">Nursey Student</option>
+              <option value="Below 5th class Student">Below 5th class Student</option>
+              <option value="seconday school Student">seconday school Student</option>
+              <option value="Btech Graduate">Btech Graduate</option>
+              <option value="Phd student">Phd student</option>
+              <option value="Ms graduate">Ms graduate</option>
+            </optgroup>
+            <optgroup label="Institution Type">
+              <option value="Govt School">Govt School</option>
+              <option value="Private institution">Private institution</option>
+              <option value="University">University</option>
+            </optgroup>
+            <optgroup label="ARE YOU NEW TO HERE">
+              <option value="YES">YES</option>
+              <option value="NO">NO</option>
+            </optgroup>
+          </select>
+          
+          <label>Interests:</label>
+          <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Development</label><br>
+          <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Design</label><br>
+          <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Business</label>
+          
+         </fieldset>
+       
+        <button type="submit">Sign Up</button>
+        
+       </form>
+        </div>
+      </div>
+      
+    </body>
+</html>
