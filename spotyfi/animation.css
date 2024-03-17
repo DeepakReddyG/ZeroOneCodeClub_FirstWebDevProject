@@ -1,0 +1,28 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: orangered;
+
+    animation-name: fontAnimation,colourAnimate,widthAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+    animation: widthAnimation 3s ease-in 0s infinite normal;
+}
+
+
+@keyframes widthAnimation{
+    from{
+        width: 10px;
+        font-size: 20px;
+        background-color: green;
+    }
+    to{
+        width: 400px;
+        font-size: 40px;
+        background-color: orangered;
+    }
+}
