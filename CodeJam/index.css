@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 20%;
+}
+
+.card-one img {
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%; 
+}
+
+.card-two {
+    width: 100%;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: black; /* Set text color to black */
+}
+
+.card-two h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem; /* Add padding below the heading */
+}
+
+.card-two h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem; /* Add more padding below the subheading */
+    color: grey;
+}
+
+.card-two a {
+    text-decoration: none;
+    background-color: black;
+    color: white; /* Set join button text color to white */
+    padding: 5px 10px;
+    display: inline-block;
+}
