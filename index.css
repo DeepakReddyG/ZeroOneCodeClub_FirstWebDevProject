@@ -1,7 +1,7 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
 }
 
 .container {
@@ -21,17 +21,17 @@
 .card-one {
     width: 100%;
 }
+
 .card-one img {
     width: 100%;
 }
 
 .card-two {
-    width: 100%;
-    padding: 1rem;
-    
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
+   width: 100%;
+   padding: 1rem;
 
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 .card-two h1 {
     font-size: 1.5rem;
 }
@@ -40,11 +40,9 @@
     margin-bottom: 1rem;
     color: grey;
 }
-
-.card-two a {
+.card-two a{
     text-decoration: none;
     background-color: black;
     color: white;
     padding: 5px 10px;
 }
-  
