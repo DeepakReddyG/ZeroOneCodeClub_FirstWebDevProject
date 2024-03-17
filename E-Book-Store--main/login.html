@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login for E-books</title>
+    <link rel="stylesheet" href="style/log.css">
+</head>
+<body>
+    <div id="head" class="hd" >
+        <img style="border-radius: 50px;" src="https://cdn.dribbble.com/users/74446/screenshots/877798/library-logo-books.png" alt="" width="100px" height="50px">
+        <h2 style="margin: auto;">E-Book Website</h2>
+    </div>
+
+    <div id="log_p">
+        <h3 id="log" style="text-align: center;">Login Application</h3>
+
+        <div id="logform">
+            <form action="index.html" onsubmit="validationform">
+            <label for="user_id">User name: </label>
+            <input type="text" placeholder="Enter ur user name="userName" required>
+            <br>
+            <br>
+            <label for="password">
+                Password:
+            </label>
+            <input style="margin-left: 10px;" type="password" name="upass" placeholder="Enter ur password" required>
+            <br>
+            <br>
+            <input style="margin-left: 104px; margin-top: 10px;" type="checkbox" required>
+            Remember me
+            <br>
+            <br>
+            <input id="btn" type="submit" value="login Now" onclick="validationform">
+            <div id="fle">
+                <p><a href="forgetp.html">forgot password</a></p>
+                <p><a href="registration.html">Create new account</a></p>
+            </div>
+        </div>
+    </div>
+</form>
+    
+    <script>
+        function validationform(){
+            const userName="";
+            const upass="";
+
+            
+            if(userName && upass){
+                alert("Please filled the form");
+            }
+            else{
+                alert("Successfully Submited")
+            }
+        }
+        console.log("Hello bswere");
+    </script>
+</body>
+</html>

@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* here navbar desgining */
+nav {
+    background-image: linear-gradient(to left, yellow, green);
+    width: 100%;
+    color: aliceblue;
+}
+
+#btn-serch{
+    margin-right: 12px;
+}
+
+#li-nav{
+    color: aliceblue;
+    font-family: 'FontAwesome'
+}
+
+#li-nav:hover{
+    color: red;
+}
+/* here header desgining  */
+#head {
+    background-image: linear-gradient(to right, yellow, white, green);
+    padding: 10px;
+    width: 98.7%;
+    display: flex;
+}
+
+#head h2 {
+    color: red;
+}
+
+#slimg1 {
+    display: block;
+    margin: auto;
+    width: 99.7%;
+    border-radius: 10px;
+    height: 84vh;
+    margin-top: 8px;
+}
+
+#grid{
+    background-color: rgb(210, 214, 217);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+#him {
+    text-align: center;
+    /* background-image: linear-gradient(to right, green, yellow); */
+    background-color: rgb(219, 210, 210);
+    /* display: flex; */
+}
+
+#imagep{
+    /* float: right; */
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+#one{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin: 20px;
+    font-weight: bolder;
+    padding: 50px;
+    border-radius: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(to left, red, yellow);
+}
+#imagep{
+    /* float: right; */
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+#two{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin: 20px;
+    font-weight: bolder;
+    padding: 50px;
+    border-radius: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(to left, green, yellow);
+}
+#three{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin: 20px;
+    font-weight: bolder;
+    padding: 50px;
+    border-radius: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(to left, green, red);
+}
+
+
+/* here footer desgins */
+#footer_main{
+    width: 97%;
+    height: 24vh;
+    margin: auto;
+    background-image: linear-gradient(to left top, green, pink);
+    /* border-radius: 25px; */
+    border: 20px solid rgb(229 241 241);;
+}
+
+
+#icons{
+    margin: auto;
+    display: table;
+}
+#tele{
+    padding: 8px;
+    font-size: xx-large;
+    color: aqua;
+}
+#text{
+    margin: auto;
+    display: table;
+    padding: 8px;
+}
+
+#text a{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#text a:hover{
+    color: white;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+#comname{
+    text-align: center;
+    padding: 10px;
+    color: rgb(183, 185, 187);
+} 
+
+#marqu{
+    margin: 10px;
+    border-radius: 20px;
+    margin-top:10px;
+    padding: 5px;
+}
+
+/* here, from responsive */
+@media screen and (max-width: 992px) {
+
+    #slimg1 {
+        width: 104.5%;
+        height: 50%;
+    }
+    #one {
+        display: block;
+        margin: auto,30px;
+        text-align: center;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        background-image: linear-gradient(to left, red, yellow);
+    }
+    #two{
+        display: block;
+        margin: auto,30px;
+        text-align: center;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        background-image: linear-gradient(to left, blue, yellow);
+    }
+    #three{
+        display: block;
+        margin: auto,30px;
+        text-align: center;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        background-image: linear-gradient(to left, red, white);
+    }
+
+    #imagep{
+        width: 100%;
+        height: 25vh;
+    }
+    #grid{
+        display: none;
+    }
+    nav {
+        background-image: linear-gradient(to left, yellow, green);
+        padding: 10px;
+        width: 100%;
+    }
+    nav{
+        background-image: linear-gradient(to left, yellow, green);
+        padding: 10px;
+        width: 100%;
+    }
+    
+    /* ul {
+        display: none;
+    } */
+    
+    #li-nav{
+        list-style: none;
+        padding-left: 15px;
+        font-weight: bold;
+    }
+    
+    #li-nav a{
+        text-decoration: none;
+        padding: 10px;
+        color: aqua;
+    }
+    
+    #li-nav a:hover {
+        color: red;
+    }
+    #text{
+        margin: auto;
+        display: table;
+        padding: 8px;
+        font-size: smaller;
+    }
+    
+}

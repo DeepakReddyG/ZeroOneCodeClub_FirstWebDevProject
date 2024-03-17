@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Book lab</title>
+    <link rel="stylesheet" href="style/blab.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</head>
+
+<style>
+    ul a {
+        /* text-align: center; */
+        text-decoration: none;
+    }
+
+    td h2 {
+        text-align: center;
+    }
+</style>
+
+<body>
+
+    <div id="head" class="hd">
+        <img id="imglog" style="border-radius: 50px;"
+            src="https://cdn.dribbble.com/users/74446/screenshots/877798/library-logo-books.png" alt="E-Book">
+        <h2 style="margin: auto;">E-Book Store</h2>
+    </div>
+
+    <div id="home" class="hm">
+        <nav id="none-nav" class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <!-- <img
+                        src="https://previews.123rf.com/images/sarahdesign/sarahdesign1506/sarahdesign150601684/40999451-ebook-icon-button.jpg"
+                        width="50px" height="50px" alt="E-Book Store" style="border-radius:50px;"></a> -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li>
+                                <a class="nav-link active" id="li-nav" aria-current="page" href="index.html"
+                                    id="test-h">Home</a>
+                            </li>
+                            <li>
+                                <!-- <a >Link</a> -->
+                                <a class="nav-link" id="li-nav" href="blab.html">Books Leb</a>
+                            </li>
+                            <li><a class="nav-link" id="li-nav" href="registration.html">Registration</a></li>
+                            <li><a class="nav-link" id="li-nav" href="login.html">Login</a></li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit" id="btn-serch">Search</button>
+                        </form>
+                    </div>
+            </div>
+        </nav>
+        <nav id="nav-bar">
+            <input type="check" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </label>
+            <ul>
+                <li class="li-nav"><a href="index.html">Home</a></li>
+                <li class="li-nav"><a href="blab.html">Books</a></li>
+                <li class="li-nav"><a href="registration.html">Registration</a></li>
+                <li class="li-nav"><a href="login.html">Login</a></li>
+                <form role="search" id="inps" style="display: flex;">
+                    <input id="search" type="search" placeholder="Search">
+                    <button type="submit" id="btn-serch">Search</button>
+                </form>
+            </ul>
+        </nav>
+        <nav class="navbar-d">
+            <ul>
+                <a href="#BCA">BCA</a>
+                <br>
+                <a href="#MCA">MCA</a>
+                <br>
+                <a href="#B TECH">B TECH</a>
+                <br>
+                <a href="#BBA">BBA</a>
+                <br>
+                <a href="#B_com">B COM</a>
+                <br>
+                <a href="#MBA">MBA</a>
+                <br>
+                <a href="#dp">DP72</a>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="container">
+        <div id="sidebar">
+            <nav class="navbar">
+                <ul style="">
+                    <a href="#BCA">BCA</a>
+                    <br>
+                    <a href="#MCA">MCA</a>
+                    <br>
+                    <a href="#B TECH">B TECH</a>
+                    <br>
+                    <a href="#BBA">BBA</a>
+                    <br>
+                    <a href="#B_com">B COM</a>
+                    <br>
+                    <a href="#MBA">MBA</a>
+                    <br>
+                    <a href="#dp">DP72</a>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div id="Main">
+        <div class="section" id="BCA">
+            <h1 style="font-family: monospace; text-align: center;">ONLINE SHOPPING BOOK</h1>
+            <br>
+            <hr><br>
+            <table style="margin: auto;" id="bcatable">
+                <tr>
+                    <th>Book</th>
+                    <th>Decription</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Add to Card</th>
+                </tr>
+                <tr>
+                    <td><img src="https://freebooks.pk/wp-content/uploads/2016/09/Object-Oriented-Programming-1.jpg"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">C++ BASIC</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://freepdf-books.com/doc-images/1994.png" alt="" width="100px" height="50vh"
+                            style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">JAVA BASIC</h2>
+                    </td>
+                    <td>Rs 2000.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://indianpdf.com/wp-content/uploads/2021/07/Learning-Python-5th-Edition-Book-PDF-Online-Download-Free-indianpdf.com_-300x458.jpg"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">PYTHON BASIC</h2>
+                    </td>
+                    <td>Rs 3050.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://www.topfreebooks.org/wp-content/uploads/2017/05/python_data_science.jpg"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">HANDBOOK PYTHON</h3>
+                    </td>
+                    <td>Rs 20050.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://www.bookganga.com/eBooks/Content/images/books/89c58ae82f6d4f918b027ede0aca53e2.jpg"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">COMPUTER NETWORK</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://freebooks.pk/wp-content/uploads/2016/09/Operating-Systems-Networks-1.jpg.webp"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">OPERATING SYSTEM</h2>
+                    </td>
+                    <td>Rs 1001.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;">
+                    </td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFMgaLsutyCcIeBIEY-1j8LBTUV4h4hCRNRw&usqp=CAU"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">DS FOR C</h2>
+                    </td>
+                    <td>Rs 201.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://indianpdf.com/wp-content/uploads/2021/08/Internet-of-things-with-python-Gaston-C.-Hillar-www.indianpdf.com_-Free-book-novel-download-online.webp"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">IOT BOOK</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;">
+                    </td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://bbooks.info/b/images/522/943_300.jpg" alt="" width="100px" height="50vh"
+                            style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">C PROGRM</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;">
+                    </td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://i.pinimg.com/474x/36/ef/60/36ef604f08198024fe6fef464d7c6e56.jpg" alt=""
+                            width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">ETHICAL HACKING</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;">
+                    </td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://images-na.ssl-images-amazon.com/images/I/61TsUTtmx0L.jpg" alt="" width="100px"
+                            height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">MATH FOR CS</h2>
+                    </td>
+                    <td>Rs 501.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;">
+                    </td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://images-na.ssl-images-amazon.com/images/I/61HN-hRIGsL.jpg" alt="" width="100px"
+                            height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">WEB DEVELOPMENT</h2>
+                    </td>
+                    <td>Rs 305.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;">
+                    </td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+            </table>
+        </div>
+
+        <hr>
+
+        <div class="section" id="MCA">
+            <br>
+            <h1 style="font-family: monospace; text-align: center;">ONLINE SHOPPING BOOK</h1>
+            <br>
+            <hr>
+            <br>
+            <table style="margin: auto;">
+                <tr>
+                    <th>Book</th>
+                    <th>Decription</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Add to Card</th>
+                </tr>
+                <tr>
+                    <td><img src="https://freebooks.pk/wp-content/uploads/2016/09/Object-Oriented-Programming-1.jpg"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">C++ BASIC</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://freepdf-books.com/doc-images/1994.png" alt="" width="100px" height="50vh"
+                            style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">JAVA BASIC</h2>
+                    </td>
+                    <td>Rs 2000.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://indianpdf.com/wp-content/uploads/2021/07/Learning-Python-5th-Edition-Book-PDF-Online-Download-Free-indianpdf.com_-300x458.jpg"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">PYTHON BASIC</h2>
+                    </td>
+                    <td>Rs 3050.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://www.topfreebooks.org/wp-content/uploads/2017/05/python_data_science.jpg"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">HANDBOOK PYTHON</h3>
+                    </td>
+                    <td>Rs 20050.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://www.bookganga.com/eBooks/Content/images/books/89c58ae82f6d4f918b027ede0aca53e2.jpg"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">COMPUTER NETWORK</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://freebooks.pk/wp-content/uploads/2016/09/Operating-Systems-Networks-1.jpg.webp"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">OPERATING SYSTEM</h2>
+                    </td>
+                    <td>Rs 1001.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;">
+                    </td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFMgaLsutyCcIeBIEY-1j8LBTUV4h4hCRNRw&usqp=CAU"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">DS FOR C</h2>
+                    </td>
+                    <td>Rs 201.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://indianpdf.com/wp-content/uploads/2021/08/Internet-of-things-with-python-Gaston-C.-Hillar-www.indianpdf.com_-Free-book-novel-download-online.webp"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">IOT BOOK</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;">
+                    </td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://bbooks.info/b/images/522/943_300.jpg" alt="" width="100px" height="50vh"
+                            style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">C PROGRM</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;">
+                    </td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://i.pinimg.com/474x/36/ef/60/36ef604f08198024fe6fef464d7c6e56.jpg" alt=""
+                            width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">ETHICAL HACKING</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;">
+                    </td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://images-na.ssl-images-amazon.com/images/I/61TsUTtmx0L.jpg" alt="" width="100px"
+                            height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">MATH FOR CS</h2>
+                    </td>
+                    <td>Rs 501.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;">
+                    </td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://images-na.ssl-images-amazon.com/images/I/61HN-hRIGsL.jpg" alt="" width="100px"
+                            height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">WEB DEVELOPMENT</h2>
+                    </td>
+                    <td>Rs 305.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;">
+                    </td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="section" id="B TECH">
+            <br>
+            <h1 style="font-family: monospace; text-align: center;">ONLINE SHOPPING BOOK</h1>
+            <br>
+            <hr>
+            <br>
+            <table style="margin: auto;">
+                <tr>
+                    <th>Book</th>
+                    <th>Decription</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Add to Card</th>
+                </tr>
+                <tr>
+                    <td><img src="https://freebooks.pk/wp-content/uploads/2016/09/Object-Oriented-Programming-1.jpg"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">C++ BASIC</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://freepdf-books.com/doc-images/1994.png" alt="" width="100px" height="50vh"
+                            style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">JAVA BASIC</h2>
+                    </td>
+                    <td>Rs 2000.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://indianpdf.com/wp-content/uploads/2021/07/Learning-Python-5th-Edition-Book-PDF-Online-Download-Free-indianpdf.com_-300x458.jpg"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">PYTHON BASIC</h2>
+                    </td>
+                    <td>Rs 3050.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://www.topfreebooks.org/wp-content/uploads/2017/05/python_data_science.jpg"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">HANDBOOK PYTHON</h3>
+                    </td>
+                    <td>Rs 20050.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://www.bookganga.com/eBooks/Content/images/books/89c58ae82f6d4f918b027ede0aca53e2.jpg"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">COMPUTER NETWORK</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://freebooks.pk/wp-content/uploads/2016/09/Operating-Systems-Networks-1.jpg.webp"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">OPERATING SYSTEM</h2>
+                    </td>
+                    <td>Rs 1001.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;">
+                    </td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFMgaLsutyCcIeBIEY-1j8LBTUV4h4hCRNRw&usqp=CAU"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">DS FOR C</h2>
+                    </td>
+                    <td>Rs 201.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://indianpdf.com/wp-content/uploads/2021/08/Internet-of-things-with-python-Gaston-C.-Hillar-www.indianpdf.com_-Free-book-novel-download-online.webp"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">IOT BOOK</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;">
+                    </td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://bbooks.info/b/images/522/943_300.jpg" alt="" width="100px" height="50vh"
+                            style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">C PROGRM</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;">
+                    </td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://i.pinimg.com/474x/36/ef/60/36ef604f08198024fe6fef464d7c6e56.jpg" alt=""
+                            width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">ETHICAL HACKING</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;">
+                    </td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://images-na.ssl-images-amazon.com/images/I/61TsUTtmx0L.jpg" alt="" width="100px"
+                            height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">MATH FOR CS</h2>
+                    </td>
+                    <td>Rs 501.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;">
+                    </td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://images-na.ssl-images-amazon.com/images/I/61HN-hRIGsL.jpg" alt="" width="100px"
+                            height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">WEB DEVELOPMENT</h2>
+                    </td>
+                    <td>Rs 305.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;">
+                    </td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="section" id="BBA">
+            <br>
+            <h1 style="font-family: monospace; text-align: center;">ONLINE SHOPPING BOOK</h1>
+            <br>
+            <hr>
+            <br>
+            <table style="margin: auto;">
+                <tr>
+                    <th>Book</th>
+                    <th>Decription</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Add to Card</th>
+                </tr>
+                <tr>
+                    <td><img src="https://images-na.ssl-images-amazon.com/images/I/813egJLD-9L.jpg" alt="" width="100px"
+                            height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Financial Management</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://images-na.ssl-images-amazon.com/images/I/61uPdhnHEjL.jpg" alt="" width="100px"
+                            height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Management Account</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://lalchowk.in/lalchowk/pictures/1017552.jpg" alt="" width="100px" height="50vh"
+                            style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Business Accounting</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://images-na.ssl-images-amazon.com/images/I/51hmxiIYraL.jpg" alt="" width="100px"
+                            height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Managerial Economics</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://5.imimg.com/data5/IV/JQ/JV/SELLER-9214050/4671-business-ethics-book-500x500.jpg"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Business Ethics</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://images-na.ssl-images-amazon.com/images/I/81gIkweF41L.jpg" alt="" width="100px"
+                            height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Business Economics</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://www.tppl.org.in/2020/10057-large_default/business-analytics.jpg" alt=""
+                            width="100px" height="50vh" style="height: 75px;"></td>
+
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Business Statistics</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://images-na.ssl-images-amazon.com/images/I/814lVZhwsuL.jpg" alt="" width="100px"
+                            height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Business Mathematics</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://images-na.ssl-images-amazon.com/images/I/81LLNp47Z7L.jpg" alt="" width="100px"
+                            height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Cost Accounting</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://mahaveerpublications.com/wp-content/uploads/2019/10/Business-Law-1.jpg" alt=""
+                            width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Business Laws</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://sahityabhawanpublications.com/wp-content/uploads/2017/11/1775-Income-Tax-and-Indirect-Taxes-AY-2020-21-by-Dr-HC-Mehrotra-Dr-SP-Goyal-For-BCom-III-Year-of-JNVU.jpg"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Income Tax and Indirect Taxes</h2>
+                    </td>
+                    <td>Rs 505.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+
+            </table>
+        </div>
+        <div class="section" id="B_com">
+            <br>
+            <h1 style="font-family: monospace; text-align: center;">ONLINE SHOPPING BOOK</h1>
+            <br>
+            <hr>
+            <br>
+            <table style="margin: auto;">
+                <tr>
+                    <th>Book</th>
+                    <th>Decription</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Add to Card</th>
+                </tr>
+                <tr>
+                    <td><img src="https://images-na.ssl-images-amazon.com/images/I/813egJLD-9L.jpg" alt="" width="100px"
+                            height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Financial Management</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://images-na.ssl-images-amazon.com/images/I/61uPdhnHEjL.jpg" alt="" width="100px"
+                            height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Management Account</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://lalchowk.in/lalchowk/pictures/1017552.jpg" alt="" width="100px" height="50vh"
+                            style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Business Accounting</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://images-na.ssl-images-amazon.com/images/I/51hmxiIYraL.jpg" alt="" width="100px"
+                            height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Managerial Economics</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://5.imimg.com/data5/IV/JQ/JV/SELLER-9214050/4671-business-ethics-book-500x500.jpg"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Business Ethics</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://images-na.ssl-images-amazon.com/images/I/81gIkweF41L.jpg" alt="" width="100px"
+                            height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Business Economics</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://www.tppl.org.in/2020/10057-large_default/business-analytics.jpg" alt=""
+                            width="100px" height="50vh" style="height: 75px;"></td>
+
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Business Statistics</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://images-na.ssl-images-amazon.com/images/I/814lVZhwsuL.jpg" alt="" width="100px"
+                            height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Business Mathematics</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://images-na.ssl-images-amazon.com/images/I/81LLNp47Z7L.jpg" alt="" width="100px"
+                            height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Cost Accounting</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://mahaveerpublications.com/wp-content/uploads/2019/10/Business-Law-1.jpg" alt=""
+                            width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Business Laws</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://sahityabhawanpublications.com/wp-content/uploads/2017/11/1775-Income-Tax-and-Indirect-Taxes-AY-2020-21-by-Dr-HC-Mehrotra-Dr-SP-Goyal-For-BCom-III-Year-of-JNVU.jpg"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Income Tax and Indirect Taxes</h2>
+                    </td>
+                    <td>Rs 505.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+
+            </table>
+        </div>
+        <div class="section" id="MB">
+            <br>
+            <h1 style="font-family: monospace; text-align: center;">ONLINE SHOPPING BOOK</h1>
+            <br>
+            <hr>
+            <br>
+            <table style="margin: auto;">
+                <tr>
+                    <th>Book</th>
+                    <th>Decription</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Add to Card</th>
+                </tr>
+                <tr>
+                    <td><img src="https://images-na.ssl-images-amazon.com/images/I/813egJLD-9L.jpg" alt="" width="100px"
+                            height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Financial Management</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://images-na.ssl-images-amazon.com/images/I/61uPdhnHEjL.jpg" alt="" width="100px"
+                            height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Management Account</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://lalchowk.in/lalchowk/pictures/1017552.jpg" alt="" width="100px" height="50vh"
+                            style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Business Accounting</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://images-na.ssl-images-amazon.com/images/I/51hmxiIYraL.jpg" alt="" width="100px"
+                            height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Managerial Economics</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://5.imimg.com/data5/IV/JQ/JV/SELLER-9214050/4671-business-ethics-book-500x500.jpg"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Business Ethics</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://images-na.ssl-images-amazon.com/images/I/81gIkweF41L.jpg" alt="" width="100px"
+                            height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Business Economics</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://www.tppl.org.in/2020/10057-large_default/business-analytics.jpg" alt=""
+                            width="100px" height="50vh" style="height: 75px;"></td>
+
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Business Statistics</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://images-na.ssl-images-amazon.com/images/I/814lVZhwsuL.jpg" alt="" width="100px"
+                            height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Business Mathematics</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://images-na.ssl-images-amazon.com/images/I/81LLNp47Z7L.jpg" alt="" width="100px"
+                            height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Cost Accounting</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://mahaveerpublications.com/wp-content/uploads/2019/10/Business-Law-1.jpg" alt=""
+                            width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Business Laws</h2>
+                    </td>
+                    <td>Rs 100.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://sahityabhawanpublications.com/wp-content/uploads/2017/11/1775-Income-Tax-and-Indirect-Taxes-AY-2020-21-by-Dr-HC-Mehrotra-Dr-SP-Goyal-For-BCom-III-Year-of-JNVU.jpg"
+                            alt="" width="100px" height="50vh" style="height: 75px;"></td>
+                    <td>
+                        <h2 style="margin: auto; padding: 10px;">Income Tax and Indirect Taxes</h2>
+                    </td>
+                    <td>Rs 505.00/-</td>
+                    <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                    "></td>
+                    <td><img src="image/cart.png" alt="" width="40px" height=""
+                            style="margin: auto; margin:auto; display: block;"></td>
+                </tr>
+
+            </table>
+        </div>
+
+        <div class="section" id="dp">
+            <br>
+            <h1 style="font-family: monospace; text-align: center;">ONLINE SHOPPING BOOK</h1>
+            <br>
+            <hr>
+            <br>
+            <table style="margin: auto;">
+                <tr>
+                    <th>Book</th>
+                    <th>Decription</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Add to Card</th>
+                </tr>
+                <td style="display: flex;"><img src="image/photo6075747744825323792.jpg" alt="" width="100px"
+                        height="50vh" style="height: 75px;"></td>
+                <td>
+                    <h2 style="margin: auto; padding: 10px;">STORY OF DP72</h2>
+                </td>
+                <td>Rs 100.00/-</td>
+                <td><input type="text" style="width: 20px; text-align: center;margin: auto;display: block;
+                        "></td>
+                <td><img src="image/cart.png" alt="" width="40px" height=""
+                        style="margin: auto; margin:auto; display: block;"></td>
+            </table>
+        </div>
+        <!-- <hr>
+        <div id="inputf">
+            <h3>Search books: </h3>
+            <input type="text" placeholder="Search..........." id="inputfield">
+        </div> -->
+    </div>
+
+</body>
+
+</html>

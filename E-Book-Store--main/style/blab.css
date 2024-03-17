@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-d{
+    /* background-image: linear-gradient(to right yellow, pink); */
+    background-color: aquamarine;
+    width: 99.9%;
+}
+.navbar-d ul{
+    display: none;
+}
+
+.navbar-d ul a:hover{
+    background-color: aqua;
+}
+.navbar-d ul a{
+    padding: 10px;
+}
+/* here header desgining  */
+#head {
+    background-image: linear-gradient(to right, yellow, white, green);
+    padding: 10px;
+    width: 99.9%;
+    display: flex;
+    position: sticky;
+    top: 0px;
+}
+
+section {
+    min-height: 90vh;
+    margin-top: 5%;
+}
+
+#imglog {
+    width: 100px;
+    height: 50px;
+}
+
+/* here navbar desgining */
+#nav-bar {
+    background-image: linear-gradient(to left, yellow, green);
+    padding: 1px;
+    width: 99.9%;
+}
+
+#nav-bar ul {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    padding: 8px;
+    color: aqua;
+}
+
+#nav-bar a:hover {
+    /* padding: 10px; */
+    color: wheat;
+    background-color: brown;
+}
+
+#head h2 {
+    color: red;
+}
+
+#home {
+    position: sticky;
+    top: 70px;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+#sidebar {
+    height: 100vh;
+    background-color: red;
+    position: fixed;
+    padding-left: 20px;
+    padding-top: 50px;
+    width: 176px;
+}
+#sidebar a{
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+}
+#sidebar a:hover{
+    background-color: aqua;
+    border-radius: 10px;
+    color: brown;
+}
+.section {
+    width: 700px;
+}
+
+
+#Main {
+    display: block;
+    margin-left: 400px;
+}
+
+#one {
+    display: flex;
+    margin: 20px;
+    border-radius: 20px;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(83, 18, 202), rgb(12, 34, 56));
+}
+
+#one img {
+    /* float: right; */
+    border-radius: 10px;
+}
+
+#two {
+    display: flex;
+    margin: 20px;
+    border-radius: 20px;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(83, 18, 202), rgb(12, 34, 56));
+}
+
+#two img {
+    float: right;
+    border-radius: 10px;
+}
+
+#three {
+    display: flex;
+    margin: 20px;
+    border-radius: 20px;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(83, 18, 202), rgb(12, 34, 56));
+}
+
+#three img {
+    float: left;
+    border-radius: 10px;
+}
+
+.checkbtn {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    float: right;
+    margin-right: 20px;
+    display: none;
+    transition: .45 s ease;
+}
+
+#check {
+    display: none;
+}
+
+#inputf{
+    width: 400px;
+    display: flex;
+    margin-left: 500px;
+}
+
+#inps{
+    color: red;
+    float: right;
+    margin-left: 60%;
+}
+#search{
+    border-radius: 10px;
+    border: none;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 6px 11px;
+}
+
+#btn-serch{
+    background-color:white;
+    border-radius: 10px;
+    border: none;
+    color: red;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 8px 11px;
+
+}
+#btn-serch:hover{
+    background-color: green;
+    color: #fff;
+}
+#search:hover{
+    background-color: rgb(193, 199, 193);
+    border: none;
+}
+
+#dp{
+    margin-bottom: 100px;
+}
+
+#none-nav{
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+
+    .navbar-d ul{
+        display: flex;
+       font-size: xx-small;
+    }
+    #nav-bar{
+        display: none;
+    }
+
+    #none-nav{
+        display: block;
+    }
+    #container {
+        display: block;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    #sidebar {
+        height: 0vh;
+        width: 100%;
+        position: fixed;
+        display: block;
+        top: -110px;
+    }
+    #sidebar ul{
+        padding: 10px;
+        display: inline-block;
+        display: flex;
+        font-size: smaller;
+        margin: -53px;
+    }
+    #sidebar a:hover{
+        background-color: aqua;
+        border-radius: 10px;
+    }
+    #check:checked ~ #sidebar{
+        top: 0;
+    }
+    #imglog {
+        width: 80px;
+        height: 50px;
+    }
+
+    #head h2 {
+        font-size: medium;
+    }
+
+    #home {
+        position: sticky;
+        top: 70px;
+    }
+
+    #head {
+        background-image: linear-gradient(to right, yellow, blue, green);
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        position: sticky;
+        top: 0px;
+    }
+
+    #Main {
+        display: block;
+        /* margin-left:40px; */
+        font-size: xx-small;
+        margin: 12px;
+    }
+
+    .section {
+        width: 100px;
+    }
+
+    .section h1 {
+        width: 350px;
+    }
+    img{
+        width:38px;
+         height:5vh;
+    }
+    hr{
+        display: none;
+    }
+}
