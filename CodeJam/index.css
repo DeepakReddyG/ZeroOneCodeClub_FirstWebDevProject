@@ -28,7 +28,6 @@
 .card-two {
     width: 100%;
     padding: 1rem;
-
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -43,7 +42,7 @@
 
 .card-two a {
     text-decoration: none;
-    background-color: black;
-    color: white;
-    padding: 5px 10px;
-}
+    background-color:black;
+    color:white;
+    padding: 15px;
+} 
