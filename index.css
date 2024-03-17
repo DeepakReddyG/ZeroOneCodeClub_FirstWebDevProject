@@ -21,23 +21,24 @@
 .card-one {
     width: 100%;
 }
+
 .card-one img {
     width: 100%;
 }
 
 .card-two {
     width: 100%;
-    padding: 1rem;
-    
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 1em;
+    box-shadow: rgba(0,0,0,0.35) 0px  5px 15px;
 }
 
 .card-two h1 {
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
+
 .card-two h2 {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
+    font-size: 1.2em;
+    margin-bottom: 1em;
     color: grey;
 }
 
@@ -47,4 +48,3 @@
     color: white;
     padding: 5px 10px;
 }
-  
