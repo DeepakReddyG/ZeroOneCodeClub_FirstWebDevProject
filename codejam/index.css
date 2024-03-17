@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -17,15 +17,15 @@
 }
 .card-one{
     width: 100%;
-
 }
-.card-one img{
+.card-one img {
     width: 100%;
 }
-.card-two{
+.card-two {
     width: 100%;
     padding: 1rem;
-    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
 }
 .card-two h1{
     font-size: 1.5rem;
@@ -35,8 +35,9 @@
     margin-bottom: 1rem;
     color: grey;
 }
+
 .card-two a{
-    text-decoration: none;
+    text-decoration-color: none;
     background-color: black;
     color: white;
     padding: 5px 10px;
