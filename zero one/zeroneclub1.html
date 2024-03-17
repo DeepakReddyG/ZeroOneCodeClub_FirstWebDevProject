@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="zerone1.css">
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="tourism-card">
+                <h1 class="main-heading">RK CEMENT CORPORATION</h1>
+                <p class="paragraph">THE COMPANY WHICH SELL STEEL RELATED PRODUCTS WHOLE SALE</p>
+                <button class="button" onclick="display('sectionFavouritePlaces')">
+                    VIEW PRODUCTS
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionFavouritePlaces">
+        <div class="favourite-places-bg-container">
+            <h1 class="favourite-places-heading">Products avaiable</h1>
+            <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionTajMahalDetailedView')">
+                <div>
+                    <h1 class="favourite-place-card-heading">Binding wire</h1>
+                    <p class="favourite-place-card-description">
+                        Binding Wire is used for the purpose of tying applications in the field of construction.
+                        It is used extensively in the construction sector for tying the rebars at
+                        the junctions/joints so as to keep the structure intact. Binding wire is made of mild steel
+                    </p>
+                </div>
+                <img src="https://cubicmart.com/media/catalog/product/cache/be323f16aa9815afceff9ab81691e319/t/a/tata-wiron-ms-binding-wire-tw-20-0.91mm-hi-id-26-kg-cubicmart-new1.jpg" class="favourite-place-card-image" />
+            </div>
+
+            <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionTMTDetailedView')">
+                <div>
+                    <h1 class="favourite-place-card-heading">TMT</h1>
+                    <p class="favourite-place-card-description">
+                        6mm TMT bars are an excellent choice for constructing window shades, kitchen counters, stirrups, railings,
+                        parapets, and other similar structures
+                        . 6mm TMT bars are used for a variety of purposes
+                    </p>
+                </div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpFlqB8Un4m_CFP0lcQ2W4gZAmPGg6vUC1Sx91v3C-cmRl_hTwhUlyhxsSA-n4qTrjDm4&usqp=CAU" class="favourite-place-card-image" />
+            </div>
+            <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionnailsDetailedView')">
+                <div>
+                    <h1 class="favourite-place-card-heading">Nails</h1>
+                    <p class="favourite-place-card-description">
+                        nail, in construction and carpentry, a slender metal shaft that is pointed at one end and flattened
+                        at the other end and is used for fastening one or more objects to each other. Nails are most commonly used to fasten pieces of wood together
+                        , but they are also used with plastic, drywall, masonry, and concrete.
+                    </p>
+                </div>
+                <img src="https://sc04.alicdn.com/kf/H202538cb88ea466aa7100bb7c5da5ad2r.jpg" class="favourite-place-card-image" />
+            </div>
+            <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectiontilegroutsDetailedView')">
+                <div>
+                    <h1 class="favourite-place-card-heading">Tile Grouts</h1>
+                    <p class="favourite-place-card-description">
+                        Tile Grout is a ready mixed flexible cement based powder
+                        . The product contains additives which improve water resistance and workability
+                        . It has been specially formulated to provide low shrinkage.
+                    </p>
+                </div>
+                <img src="https://services.ibo.com/media/v1/products/images/bcf5ce96-bba0-4d23-8a04-716d78d8a744/ardex-endura-1-kg-black-tile-cementitious-grout-1.jpeg" class="favourite-place-card-image" />
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionHome')">
+                back
+            </button>
+        </div>
+    </div>
+    <div id="sectionTajMahalDetailedView">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://cdn.shopify.com/s/files/1/0069/6283/9637/products/Screenshot2021-06-26at7.16.54PM.png?v=1624715373" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://m.media-amazon.com/images/I/71I164FpTmL.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://m.media-amazon.com/images/I/61+lOqhBY0L.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Binding wire</h1>
+                    <p class="detailed-view-card-description">
+                        Binding Wire is used for the purpose of tying applications in the field of construction. It is used extensively in the construction sector for tying the rebars at the junctions/joints so as to keep the structure intact. Binding wire is made of mild steel.
+
+                        TYPES OF BINDING WIRES
+                        Binding wire has the following types where they are used.
+
+                        Constructional Binding Wire, Made by Straightened Cut Wire,
+                        Black Annealed Binding Wire,For Daily Tying Uses,
+                        Galvanized Iron Binding Wire,
+                        Small Coil Rebar Wire,
+                        Tie Loop Tie Wire,
+                        Binding Wire for Packing,
+                        U Type Binding Wire,
+                        Book Binding Wire(Stitching Wire),
+                        Galvanized Wire,
+                        Stainless Steel Wire,
+                        Brass Wire Aluminum Wire,
+                        PVC coated binding wire...
+                    </p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionFavouritePlaces')">
+                back
+            </button>
+        </div>
+    </div>
+    <div id="sectionTMTDetailedView">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="goldenTempleCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#goldenTempleCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#goldenTempleCarousel" data-slide-to="1"></li>
+                        <li data-target="#goldenTempleCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://www.shreejisteelcorp.com/wp-content/uploads/2018/09/WhatsApp-Image-2018-09-12-at-2.34.23-PM-600x600.jpeg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.mvikas.in/images/thumbs/0017539_tmt-bar-20mmfe500d-make-sail.jpeg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9-7JpMp444pSMLLTI3ExKNqWaWs4MUGG2PQ&usqp=CAU" class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#goldenTempleCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#goldenTempleCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">TMT</h1>
+                    <p class="detailed-view-card-description">
+                        hermo-Mechanically Treated bars are high-strength reinforcement bars having a tough outer core and a soft inner core. The very first step of the manufacturing process involves passing the steel wires through a rolling mill stand. Thereafter
+                        , these rolled steel wires are again passed through the Tempcore water cooling system.
+                        \While passing the wires through the water cooling system, the water pressure is optimised.
+                        The sudden quenching and drastic change in temperature toughen the outer layer of the steel bar, thus making it super tough and durable. Once this process is over, the TMT bars are subject to atmospheric cooling. This is done in order to equalise the temperature difference between the soft inner core and the tough exterior. Once the TMT bar cools down, it slowly turns into a ferrite-pearlite mass. The inner core remains soft giving the TMT bar great tensile strength and elongation point. This design is unique to the TMT bars and gives superior ductility to the bars. Also, this unique manufacturing technique and the absence of Cold stress make this bar corrosion-resistant and boost its weldability.
+
+                        This same manufacturing process is used to manufacture high-quality SRMB TMT bars.
+                        This delivers greater tensile strength to the TMT bars. The most important features of SRMB TMT bar include higher elongation. This improves the bend/re-bend properties or the TMT bars, thus making it safe from natural calamities such as an earthquake.
+                    </p>
+
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionFavouritePlaces')">
+                back
+            </button>
+        </div>
+    </div>
+    <div id="sectionnailsDetailedView">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="goldenTempleCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#goldenTempleCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#goldenTempleCarousel" data-slide-to="1"></li>
+                        <li data-target="#goldenTempleCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://c8.alamy.com/comp/EBWF1X/hardware-nail-gun-nails-in-coil-pack-bundle-for-compressed-air-nail-EBWF1X.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images-cdn.ubuy.co.in/63ccf7af9355e275e41ffeea-uxcell-small-tiny-brass-nails-1-2x20mm.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.shutterstock.com/image-photo/macro-metal-nails-stack-dark-260nw-233494183.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#goldenTempleCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#goldenTempleCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Nails</h1>
+                    <p class="detailed-view-card-description">
+                        Nails were formerly made of bronze or wrought iron and were crafted by blacksmiths and nailors. These crafts people used a heated square iron rod that they forged before they hammered the sides which formed a point. After reheating and cutting off,
+                        the blacksmith or nailor inserted the hot nail into an opening and hammered it
+                        .[17] Later new ways of making nails were created using machines
+                        to shear the nails before wiggling the bar sideways to produce a shank. For example, the Type A cut nails were sheared from an iron bar type guillotine using early machinery. This method was slightly altered until the 1820s when new heads on the nails' ends were pounded via a separate mechanical nail heading machine. In the 1810s, iron bars were flipped over after each stroke while the cutter set was at an angle. Every nail was then sheared off of taper allowing for an automatic grip of each nail which also formed their heads.[17] Type B nails were created this way. In 1886, 10 percent of the nails that were made in the United States were of the soft steel wire variety and by 1892, steel wire nails overtook iron cut nails as the main type of nails that were being produced. In 1913, wire nails were 90 percent of all nails that were produced.[17]
+
+                        Today's nails are typically made of steel, often dipped or coated to
+                        prevent corrosion in harsh conditions or to improve adhesion. Ordinary nails for wood are usually of a soft, low-carbon or "mild" steel (about 0.1% carbon, the rest iron and perhaps a trace of silicon or manganese). Nails for concrete are harder, with 0.5–0.75% carbon.[citation needed]
+                    </p>
+
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionFavouritePlaces')">
+                back
+            </button>
+        </div>
+    </div>
+    <div id="sectiontilegroutsDetailedView">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="goldenTempleCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#goldenTempleCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#goldenTempleCarousel" data-slide-to="1"></li>
+                        <li data-target="#goldenTempleCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://s7d1.scene7.com/is/image/TileShop/038656?$Product_Search$" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://services.ibo.com/media/v1/products/images/9c020628-8075-49f3-aea2-e99234bf9ce3/ardex-endura-1-kg-white-tile-cementitious-grout-1.jpeg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://rukminim1.flixcart.com/image/850/1000/kwdv3bk0/crack-filler/q/w/o/280-waterproof-tile-gap-crack-grout-filler-water-resistant-original-imag92hg3uzrrfth.jpeg?q=90" class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#goldenTempleCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#goldenTempleCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Tile grouts</h1>
+                    <p class="detailed-view-card-description">
+                        Tile joint (Grouts) fillers are used in the space between adjoining tiles laid either on the floor or walls
+                        . Traditionally, tiling is done by placing tiles close with white cement used to fill the tile joints instead of tile joint fillers. White cement tends to break easily,
+                        leading to dirty/ stained tile joints, water seepage and growth of fungus/ bacteria.
+                        Grout is used as a filler for the joints between tiles once the tile you are installing has been set.
+                        Most grouts are a powdered mix of cement, lime,
+                        color pigment and sometimes sand that hardens when mixed with water and left to cure.
+                    </p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionFavouritePlaces')">
+                back
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
