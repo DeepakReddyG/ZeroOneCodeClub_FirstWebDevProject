@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.one{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid white;
+    display: flex;
+    
+}
+.two{
+    width: 30%;
+    height: 100vh;
+    background-color: blueviolet;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.two a{
+    flex-direction: column;
+    text-decoration: none;
+    font-size:20px;
+
+    border-bottom: 1px solid white;
+    text-emphasis-color: red;
+}
+
+.three{
+    align-items: center;
+}
+
+.one_one{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.two_two image{
+   width: 100%;
+}
+
+.three_three{
+background-color: grey;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.one_one :nth-child(2){
+    margin: 1px 10px;
+}
+
+.three_three p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
