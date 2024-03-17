@@ -1,12 +1,12 @@
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 .container {
-    height: 100vh;
-    width: 100%;
+    height: 1vh;
+    width: 1%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,12 +19,11 @@
 }
 
 .card-one {
-    width: 100%;
+    width: 1%;
 }
-.card-one img {
-    width: 100%;
+.card-one img{
+    width: 1%;
 }
-
 .card-two {
     width: 100%;
     padding: 1rem;
@@ -41,10 +40,9 @@
     color: grey;
 }
 
-.card-two a {
+.card-two a{
     text-decoration: none;
     background-color: black;
     color: white;
-    padding: 5px 10px;
+    padding: 15px;
 }
-  
