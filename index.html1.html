@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="Untitled-1.css".css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionProjectsHome">
+        <div class="bg-container d-flex flex-column">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" class="project-image" />
+            <h1 class="projects-heading">My Projects</h1>
+            <p class="projects-description">These are a few of my static website projects that i have developed using HTML,CSS and BOOTSTRAP </p>
+            <div class="projects-box-container d-flex flex-row ">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" class="projects-box-image" onclick="display('sectionAdvancedPage')" />
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" class="projects-box-image" onclick="display('sectionDiwali')" />
+            </div>
+            <div class="projects-box-container d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" class="projects-box-image" onclick="display('sectionMeals')" />
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" class="projects-box-image" onclick="display('sectionEducation')" />
+            </div>
+        </div>
+    </div>
+    <div id="sectionAdvancedPage">
+        <div class="advanced-bg-container d-flex flex-row justify-content-center">
+            <div class="card">
+
+                <h1 class="main-heading">Advanced Technologies</h1>
+                <p class="paragraph">
+                    Machinery and equipment developed from the application of scientific knowledge
+                </p>
+
+                <div class="button-container d-flex flex-row justify-content-between">
+                    <button class="learn-more-button">learn more</button>
+                    <button class="save-draft-button btn btn-primary" onclick="display('sectionProjectsHome')">back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionDiwali">
+        <div class="diwali-top-section">
+            <h1 class="diwali-top-section-heading">
+                Celebrate Diwali with your friends
+            </h1>
+        </div>
+        <div class="diwali-bottom-section">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Diwali Air Balloon</h1>
+                    <p class="diwali-card-price">Rs 369</p>
+                </div>
+
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diya-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Diwali - Lamp</h1>
+                    <p class="diwali-card-price">Rs 50</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Sparklers</h1>
+                    <p class="diwali-card-price">Rs 150</p>
+                </div>
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firecracker-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Fire Cracker</h1>
+                    <p class="diwali-card-price">Rs 560</p>
+                </div>
+            </div>
+            <button class="btn btn btn-primary" onclick="display('sectionProjectsHome')">Back</button>
+
+        </div>
+    </div>
+
+    <div id="sectionMeals">
+        <div class="meals-bg-container d-flex flex-column justify-content-end">
+            <div class="meals-card">
+                <h1 class="meals-card-title">Happy meals</h1>
+                <p class="meals-card-discription">Discover the best foods over the 1,000 restaurants</p>
+                <div class="button-container d-flex flex-row justify-content-between">
+                    <button class="meals-card-button">Book now</button>
+                    <button class="button btn btn-primary" onclick="display('sectionProjectsHome')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionEducation">
+        <div class="education-bg-container d-flex flex-column justify-content-end">
+            <div class="card">
+                <h1 class="main-heading">
+                    News of the day
+                </h1>
+                <h1 class="sub-heading">
+                    All educational institutions in Assam to reopen from November 2
+                </h1>
+                <p class="paragraph">
+                    uttar pradesh's Gautam Buddh Nagar recorded 107 new covid-19 cases on saturday,pushing the district's infection tally to 15,803 official data showed.The number of active cases come down further to 1,384 from 1,477 on friday and 1,523on thursday, according to the data released by the up health department for a 24-hour period.
+                </p>
+                <div class="button-container d-flex flex-row justify-content-between">
+                    <button class="button">
+                        Read more
+
+                    </button>
+                    <button class="last-button btn btn-primary" onclick="display('sectionProjectsHome')">Back</button>
+                </div>
+            </div>
+
+            <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js">
+            </script>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+;
+
+.bg-container {
+    background-color: #ffffff;
+    height: 100vh;
+    background-size: cover;
+}
+
+.project-image {
+    height: 40vh;
+
+
+}
+
+.projects-heading {
+    font-size: 30px;
+    font-family: "bree serif";
+    padding: 5px;
+    text-align: center;
+    color: #183b56;
+    font-weight: 500;
+}
+
+.projects-description {
+    font-size: 15px;
+    font-family: "bree serif";
+    padding: 3px;
+    text-align: center;
+    color: #616e76;
+    font-weight: 500;
+}
+
+.projects-box-container {
+    padding: 10px;
+}
+
+.projects-box-image {
+    border-radius: 10px;
+    height: 20vh;
+    padding: 5px;
+
+}
+
+.advanced-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.main-heading {
+    font-family: "bree serif";
+    font-size: 30px;
+    color: #5752ab;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.paragraph {
+    font-family: "roboto";
+    font-size: 18px;
+    color: #323f4b;
+    padding: 5px;
+}
+
+.button-container {
+    padding: 10px;
+}
+
+.learn-more-button {
+    height: 36px;
+    width: 100px;
+    border-radius: 10px;
+    color: black;
+    border-color: black;
+    background-color: #ffffff;
+    font-family: "roboto";
+    font-size: 12px;
+    font-weight: 500;
+    border-width: 1px;
+    margin-left: 60px;
+
+
+}
+
+.save-draft-button {
+    height: 36px;
+    width: 90px;
+    border-radius: 10px;
+    font-family: "roboto";
+    margin-right: 60px;
+
+}
+
+.diwali-top-section {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-bg.png");
+    height: 30vh;
+    background-size: cover;
+}
+
+.diwali-top-section-heading {
+    color: white;
+    font-family: "Caveat";
+    font-size: 36px;
+    width: 200px;
+    padding: 20px;
+}
+
+.diwali-bottom-section {
+    text-align: center;
+    background-color: #e6f6ff;
+    padding: 15px;
+}
+
+.diwali-card-item {
+    text-align: center;
+    background-color: white;
+    width: 140px;
+    border-radius: 9px;
+    padding: 16px;
+    margin: 15px;
+}
+
+.diwali-card-image {
+    height: 64px;
+    width: 64px;
+}
+
+.diwali-card-name {
+    color: #616e7c;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.diwali-card-price {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.meals-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png");
+    height: 525px;
+    width: 300px;
+    background-size: cover;
+
+}
+
+.meals-card {
+    background-color: #f6c56e;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding: 25px;
+}
+
+.meals-card-title {
+    color: #323f4b;
+    font-family: "bree serif";
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.meals-card-discription {
+    color: #323f4b;
+    font-family: "bree serif";
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.meals-card-button {
+    background-color: #ffffff;
+    font-family: "bree serif";
+    font-size: 10px;
+    height: 38px;
+    width: 90px;
+    border-width: 0px;
+    border-radius: 8px;
+
+}
+
+.education-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 25px;
+    height: 250px;
+    width: 400px;
+
+}
+
+.main-heading {
+    font-family: "roboto";
+    font-size: 15px;
+    color: #323f4b;
+
+}
+
+.sub-heading {
+    font-family: "roboto";
+    font-size: 20px;
+    color: #323f4b;
+    font-weight: bold;
+
+
+}
+
+.paragraph {
+    font-family: "roboto";
+    color: #7b8794;
+    font-size: 15px;
+
+
+}
+
+.button {
+    height: 36px;
+    width: 100px;
+    border-width: 0px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #323f4b;
+    margin-left: 60px;
+}
+
+.last-button {
+    margin-right: 100px;
+}
+
+
+
+
+
+
