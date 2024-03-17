@@ -3,49 +3,48 @@
     margin: 0;
     box-sizing: border-box;
 }
-.container {
+
+.Container {
     height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.card {
+
+.Card {
     width: 20%;
     display: flex;
     flex-direction: column;
 }
-.card-one {
+
+.Card-one {
     width: 100%;
+
 }
-.card-one  img{
+.Card-one img {
     width: 100%;
-}
-.card-two {
-    width: 100%;
-    padding: 1rem;
-    border: 2px solid black;
-    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
-}
-.card-two h1 {
-    font-size: 1.5rem;
-}
-.card-two h2 {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-   
-}
-.card-two h1{
-    font-size: 1.5rem;
-}
-.card-two h2{
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-    color: gray;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.card-two a{ 
+.Card-two  {
+    width: 100%;
+    padding: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Card-two h1 {
+    font-size: 1.5rem;
+}
+.Card-two h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: grey;
+}
+
+.Card-two a {
     text-decoration: none;
     background-color: black;
-    color: white;
+    color: aliceblue;
     padding: 5px 10px;
 }

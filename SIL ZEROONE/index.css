@@ -1,50 +1,42 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+
 }
-.container {
+.container{
     height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.card {
+.hello{
     width: 20%;
     display: flex;
     flex-direction: column;
 }
-.card-one {
+.hello1{
     width: 100%;
 }
-.card-one  img{
-    width: 100%;
+.hello1 img{
+    width:100%;
 }
-.card-two {
+.hello2{
     width: 100%;
     padding: 1rem;
-    border: 2px solid black;
     box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
 }
-.card-two h1 {
+.hello1 h1{
     font-size: 1.5rem;
 }
-.card-two h2 {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-   
-}
-.card-two h1{
-    font-size: 1.5rem;
-}
-.card-two h2{
+.hello2 h2{
     font-size: 1.2rem;
     margin-bottom: 1rem;
-    color: gray;
+    color: grey;
 }
-
-.card-two a{ 
-    text-decoration: none;
+.hello2 a{
+    text-decoration: name;
     background-color: black;
     color: white;
     padding: 5px 10px;
