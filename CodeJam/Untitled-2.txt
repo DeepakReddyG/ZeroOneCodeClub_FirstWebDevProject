@@ -1,0 +1,69 @@
+<body bgcolor="WHITE">
+
+<html>
+<head>
+  <title>7 Wonders</title>
+</head>
+<body>
+  <h1>7 Wonders of the World</h1>
+  <ul>
+    <li>The Great Wall of China</li><br>
+<img src="wall.jpg" width="125" height="125">
+The wall was built from as early as the 7th century BC,
+ with selective stretches later joined by Qin Shi Huang (220–206 BC),
+ the first emperor of China. Little of the Qin wall remains. Later on,
+ many successive dynasties built and maintained multiple stretches of border walls.
+ The best-known sections of the wall were built by the Ming dynasty (1368–1644) ¹³.
+ The Great Wall of China is approximately 21,196.18 km (13,170.70 mi) long in total.
+<br><br>
+
+    <li>Petra</li><br>
+<img src="petra.jpg" width="125" height="125">
+Petra is an ancient city located in the Ma'an Governorate of Jordan.
+ It is believed to have been built as early as the 5th century BC. 
+The city was the center of an Arab kingdom in Hellenistic and Roman times. 
+Petra is famous for its rock-cut architecture and water conduit system.
+ <br><br>
+
+    <li>Christ the Redeemer</li><br>
+<img src="redeemer.jpg" width="125" height="125">
+Christ the Redeemer is a colossal statue of Jesus Christ 
+located at the summit of Mount Corcovado in Rio de Janeiro, Brazil.
+ The statue stands 98 feet (30 meters) tall and has horizontally
+ outstretched arms spanning **92 feet (28meters)**.
+ <br><br>
+
+    <li>Machu Picchu</li><br>
+<img src="machu pichu.jpg" width="125" height="125"> 
+Machu Picchu is a 15th-century Inca citadel located in the Eastern Cordillera
+ of southern Peru on a 2,430-meter (7,970 ft) mountain ridge .
+ It is often referred to as the "Lost City of the Incas" and is the most familiar icon of the Inca Empire .
+<br><br>
+
+    <li>Chichen Itza</li><br>
+<img src="chichen.jpg" width="125" height="125">
+Chichén Itzá is a large pre-Columbian city built by the Maya people 
+of the Terminal Classic period. The archeological site is located in Tinúm Municipality, 
+Yucatán State, Mexico ². The city was once a center of culture and religion for the Maya 
+people and is thought to have been a religious, military, political, and commercial center 
+that at its peak would have been home to 35,000 people ³. 
+<br><br>
+
+    <li>The Colosseum</li><br>
+<img src="colosseum.jpg" width="125" height="125"> 
+The Colosseum is an ancient amphitheater located in Rome, Italy.
+ It was built during the Flavian dynasty in the first century AD
+ and is considered one of the greatest works of Roman architecture.
+<br><br>
+
+    <li>Taj Mahal</li><br>
+<img src="taj mahal.jpg" width="125" height="125"> 
+The Taj Mahal is a mausoleum complex located in Agra, 
+Uttar Pradesh, India. It was commissioned by the fifth Mughal emperor,
+ Shah Jahan, in memory of his beloved wife Mumtaz Mahal, who died during childbirth
+ in 1631¹²³. The construction of the Taj Mahal began in 1632 and was completed in 1653¹.
+<br><br>
+
+  </ul>
+</body>
+</html>
