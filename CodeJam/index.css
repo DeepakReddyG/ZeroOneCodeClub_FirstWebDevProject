@@ -37,10 +37,9 @@
 }
 .card-two h2 {
     font-size: 1.2rem;
-    margin-bottom: 1rem;
-    color: grey;
+    margin: 1rem;
+    color: gray;
 }
-
 .card-two a {
     text-decoration: none;
     background-color: black;
