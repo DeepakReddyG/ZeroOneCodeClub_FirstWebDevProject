@@ -1,7 +1,7 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;   
 }
 
 .container {
@@ -18,17 +18,18 @@
     flex-direction: column;
 }
 
+
 .card-one {
-    width: 100%;
+    width: 100%
 }
 .card-one img {
-    width: 100%;
+    width: 100%;   
 }
 
 .card-two {
     width: 100%;
     padding: 1rem;
-
+    
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -37,13 +38,13 @@
 }
 .card-two h2 {
     font-size: 1.2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem
     color: grey;
 }
 
 .card-two a {
     text-decoration: none;
     background-color: black;
-    color: white;
+    color: white
     padding: 5px 10px;
 }
