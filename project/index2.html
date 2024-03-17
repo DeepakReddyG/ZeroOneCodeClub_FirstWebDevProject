@@ -1,0 +1,312 @@
+*{ padding:0; margin:0; box-sizing: border-box; font-family: sens-serif; }
+header{
+width: 100%;
+height: 100vh;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: rgb(0, 153, 255);
+width: 100%;
+height: 70px;
+border-bottom: 1px solid grey;
+box-shadow: 2px 0px 5px grey;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.logo{
+font-size: 50px;
+font-weight: bold;
+}
+.menu a{
+text-decoration: none;
+font-size: 20px;
+color: black;
+padding: 10px 20px;
+margin:5px;
+font-weight: bold;
+}
+.menu a:last-child{
+background: black;
+color: white;
+}
+.container{
+    display: flex;
+justify-content: center;
+align-items: center;
+transform-style: preserve-3d;
+transform-origin: center;
+perspective: 2000px;
+}
+.left{
+    flex-basis: 50%;
+    animation: animate 3s linear infinite;
+}
+@keyframes animate{
+0%
+{
+    transform: scale(1.1);
+}
+50%
+{
+    transform: scale(1);
+}
+100%
+{
+    transform: scale(1.1);
+}
+}
+.right{
+    flex-basis: 50%;
+    max-width: 400px;
+    margin-left: 50px;
+}
+
+.right h1{
+font-size: 50px;
+}
+.right p{
+    font-size: 25px;
+    margin: 25px 0px;
+    }
+button{
+    background: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+#featured{
+    padding: 50px 0px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.wrapper{
+    display: grid; 
+    grid-template-columns: repeat(4, 20%);
+    grid-auto-rows: minmax(200px, auto);
+    grid-gap: 1em;
+    justify-content: center;  
+}
+    .wrapper>div{
+        border: 1px solid grey;
+        position: relative;
+    }                                                                
+
+.wrapper> div img{
+    width: 100%;
+    overflow: hidden;
+
+}
+.price{
+position: absolute;
+top: 0;
+left: 0;
+background: black;
+color: white;
+padding: 5px;
+font-size: 16px;
+}
+.wrapper> div img:hover{
+transform: scale(1.2);
+transition: 0.4s linear;
+}
+
+#man{
+    padding: 80px 0px;
+}
+.man-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.man-box{
+    flex-basis: 15%;
+    box-shadow: 2px 3px 5px grey;
+    padding: 10px;
+    text-align: center;
+}
+.man-box img{
+    width: auto;
+    height: 100px;
+    object-fit:cover;
+}
+.man-box h2{
+     margin:20px 0px;
+     font-size: 16px;
+}
+.man-box h3{
+    background: black;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+}
+.man-box:hover{
+    transform: translateY(-20px);
+    transition: 0.4s ease;
+}
+#footer h2{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    color: white;
+    padding: 10px;
+    
+   
+}
+<html>
+<head>
+<title>Online-Shopping Web</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<header id="home">
+<nav>
+<div class="logo">E-Shop</div>
+<div class="menu">
+<a href="#home">Home</a>
+<a href="#featured"> Featured</a>
+<a href="#man">Men</a>
+<a href="#women">Women</a>
+<a href="#">Shop</a>
+</div>
+</nav>
+
+<body bgcolor="FIF3F6">
+    <table border="0" width="100%" bgcolor="#2874F0">
+        <tr>
+        <th><font color="white">Shop here</font></th>
+        <td><input type="text" placeholder="Search for products, brands and more">
+        <th><font color="white">Login & Signup</font></th>
+        <th><font color="white">More</font></th>
+       
+        </tr>
+        </table> 
+<div class="container">
+<div class="left"> 
+<img src="s1.png">
+</div> 
+<div class="right">
+    <h1 > Best Festivel offers</h1>
+    <p>
+        This is the best quality material
+        shoes for womens
+    </p>
+    <p>
+        50% Discount!!! 
+    </p>
+    <button>Shop</button><br>
+    <img src="icon.png">
+</div>
+</header>
+<section id ="featured">
+    <h1>Featured</h1>
+    <div class="wrapper"> 
+      
+    <div>
+        <img src="s1.png">
+        <div class="price">price: $99.99</div> 
+    </div>
+    <div>
+        <img src="s2.jpg">
+        <div class="price">price: $49.99</div> 
+    </div>
+    <div>
+        <img src="s3.jpg">
+        <div class="price">price: $60.00</div> 
+    </div>
+    <div>
+        <img src="s4.jpg">
+        <div class="price">price: $30.00</div> 
+    </div>
+        </div>
+
+        <!--   Other section   -->
+
+ <section id="man">
+    <h2>Men</h2>
+  <div class="man-row">
+      <div class="man-box">
+    <img src="m2.jpg">
+         <h2>Adidas<br>$79.99</h2>
+           <h3>Add to cart</h3>
+          </div>
+            
+          <div class="man-box">
+                <img src="m3.jpg">
+                   <h2>Nike<br>$79.99</h2>
+                      <h3>Add to cart</h3>
+                  </div>
+                      
+       <div class="man-box">
+              <img src="m4.jpg">
+                 <h2>Nike black<br>$119.99</h2>
+                 <h3>Add to cart</h3>
+                    </div>
+                             
+         <div class="man-box">
+               <img src="s5.jpg">
+                     <h2>Nike Ferr TR<br>$129.99</h2>
+                         <h3>Add to cart</h3>
+                    </div>
+                                  
+        <div class="man-box">
+            <img src="s2.jpg">
+                <h2>Casual shoe<br>$49.99</h2>
+                   <h3>Add to cart</h3>
+                                                
+              </div>
+              </section>
+
+
+              <section id="women">
+                <h2>Women</h2>
+                <div class="man-row">
+                 
+                        <div class="man-box">
+                              <img src="s1.png">
+                                 <h2>Alexander MQueen<br>$99.99</h2>
+                                    <h3>Add to cart</h3>
+                                </div>
+                                    
+                     <div class="man-box">
+                        <img src="g1.jpg">
+                               <h2>PRADA<br>$84.99</h2>
+                               <h3>Add to cart</h3>
+                                  </div>
+                                           
+                       <div class="man-box">
+                        <img src="g2.jpg">
+                                   <h2>ZARA<br>$99.99</h2>
+                                       <h3>Add to cart</h3>
+                                  </div>
+                                                
+                      <div class="man-box">
+                        <img src="g3.jpg">
+                              <h2>ZARA BKACK<br>$74.99</h2>
+                                 <h3>Add to cart</h3>
+                                                              
+                            </div>
+                            </section><br>
+
+
+<section id="footer">
+    <h2>Developed by Amarjeet kumar</h2><br>
+    <img src="icon.png">
+</section>
+
+
+        </section>
+
+    
+
+</body>
+</html>
