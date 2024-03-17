@@ -1,0 +1,28 @@
+.container{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .card{
+      width: 20%;
+      display:flex;
+      flex-direction: column;
+  }
+  .card-one{
+  width:100%;
+  font-size: 0.5rem;
+  padding: 0.5rem;
+    box-shadow: black 0px 5px 15px;
+  
+  }
+  .card-one img{
+      width: 100%;
+  
+  }
+  .card-two{
+    font-size: o.4rem;
+    
+  }
