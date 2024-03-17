@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../New folder"
+		},
+		{
+			"path": "../C LANGUAGE"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "C LANGUAGE"
+	}
+}
