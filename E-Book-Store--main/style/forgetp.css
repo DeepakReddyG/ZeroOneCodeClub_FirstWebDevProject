@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#head {
+    background-image: linear-gradient(to right, yellow, white, green);
+    padding: 10px;
+    width: 100%;
+    display: flex;
+}
+
+body{
+    background-image: linear-gradient(to bottom right , yellow, green );
+    height: 99vh;
+}
+
+#log_p{
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 50vh;
+    border-radius: 50px;
+    border: 0px solid black;
+    background-image: linear-gradient(to left, red, yellow);
+}
+
+label{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#log{
+    margin-top: 30px;
+    color: red;
+    padding-top: 10px;
+}
+
+#btn{
+    text-align: center;
+    width: 100px;
+    height: 5vh;
+    border-radius: 20px;
+    border: 0;
+    margin-left: 96px;
+    margin-top: 10px;
+    background-color: aqua;
+}
+#btn:hover{
+    background-color: red;
+    color: aliceblue;
+}
+
+input:hover{
+    /* color: aqua; */
+    border: none;
+    background-color: yellow;
+}
+input{
+    border: none;
+    background-color: bisque;
+    color: red;
+    border-radius: 5px;
+}
+
+#fle{
+    margin-top: 20px;
+    justify-content: space-around;
+    display: flex;
+}
+p a{
+    /* margin-left: 200px; */
+    text-decoration: none;
+    color: aliceblue;
+}
+p a:hover{
+    color: green;
+}
+p a:active{
+    color: blue;
+}
+
+#logform{
+    margin-top: 20px;
+    display: table;
+    margin: auto;
+    padding-top:50px;
+}
+
+@media screen and (max-width: 992px) {
+    #log_p{
+        display: block;
+        margin: auto;
+        width: 90%;
+        height: 50vh;
+        border-radius: 50px;
+        border: 0px solid black;
+        background-image: linear-gradient(to left, red, yellow);
+    }
+}

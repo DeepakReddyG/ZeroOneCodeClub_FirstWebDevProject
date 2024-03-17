@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration for E-Books</title>
+    <link rel="stylesheet" href="style/reg.css">
+</head>
+<body>
+    <div id="head" class="hd" >
+        <img style="border-radius: 50px;" src="https://cdn.dribbble.com/users/74446/screenshots/877798/library-logo-books.png" alt="" width="100px" height="50px">
+        <h2 style="margin: auto;">E-Book Website</h2>
+    </div>
+
+    <div id="forreg">
+        <h3 style="text-align: center; color:aliceblue;padding-top: 20px; ">Registration Now</h3>
+        <div id="reg">
+            <form action="index.html" onsubmit="validationform">
+
+            <label for="name">First Name: </label>
+            <input type="text" name="fname" placeholder="Enter ur name" required>
+            <br>
+            <br>
+            <label for="name">Last Name: </label>
+            <input type="text" name="lname" placeholder="Enter ur last name" required>
+            <br>
+            <br>
+            <label for="name">Email id: </label>
+            <input style="margin-left:17px;" name="email" type="email" placeholder="Enter ur email id" required>
+            <br>
+            <br>
+            <label for="name">Phone number: </label>
+            <input type="number" name="phone" placeholder="Enter ur phonee no" required>
+            <br>
+            <br>
+            <label for="name">Join date: </label>
+            <input type="date" name="joindate" placeholder="Enter ur phonee no">
+            <br>
+            <br>
+            <label for="username">User Name:</label>
+            <input type="text" name="username" placeholder="Create a new user name" required>
+            <br>
+            <br>
+            <label for="username">Password:</label>
+            <input type="password" name="pass" placeholder="Create ur new password" required>
+            <br>
+            <br>
+            <label for="username">Re-Password:</label>
+            <input type="text" name="repass" placeholder="Confirm ur password" required>
+            <br>
+            <br>
+            <input id="check" type="checkbox" required>Are you agree with this?
+            <br>
+            <br>
+            <p style="text-align: center;">If, You have already account? <a id="pid" href="login.html" style="text-decoration: none;">login</a></p>
+            <br>
+            
+            <input id="btn" type="submit" onclick="validationform">
+        </form>
+        </div>
+    </div>
+
+    <script>
+        function validationform(){
+            const fname="";
+            const lname="";
+            const email="";
+            const phone="";
+            const username="";
+            const pass="";
+
+            
+            if(fname && lname && email && phone && username && pass){
+                alert("Please filled the form");
+            }
+            else{
+                alert("Successfully Submited")
+            }
+        }
+        console.log("Hello bswere");
+    </script>
+</body>
+</html>
