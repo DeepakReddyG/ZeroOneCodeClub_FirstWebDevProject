@@ -19,17 +19,16 @@
 }
 
 .card-one {
-    width: 100%;
+   width: 100%;
 }
 .card-one img {
-    width: 100%;
+  width: 100%;
 }
 
 .card-two {
     width: 100%;
     padding: 1rem;
-    
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0,0,0.35) 0px 5px 15px;
 }
 
 .card-two h1 {
@@ -47,4 +46,3 @@
     color: white;
     padding: 5px 10px;
 }
-  
