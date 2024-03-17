@@ -1,50 +1,26 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeJam - ZeroOne</title>
+    <link rel="*stylesheet" href="index.css">
+</head>
+<body>
 
-.container {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.card {
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-}
+    <div class="container">
+       <div class="card">
 
-.card-one {
-    width: 100%;
-}
-.card-one img {
-    width: 100%;
-}
+        </div> class="card-one">
+              <img src="ZOCO.jpg" alt="">
+    </div>
+    <div class="card-two">
+        <h1>ZeroOne Code Club</h1>
+        <h2>Student Activity Centre</h2>
 
-.card-two {
-    width: 100%;
-    padding: 1rem;
+            <a href="a">Join</a>
+    </div>
     
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.card-two h1 {
-    font-size: 1.5rem;
-}
-.card-two h2 {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-    color: grey;
-}
-
-.card-two a {
-    text-decoration: none;
-    background-color: black;
-    color: white;
-    padding: 5px 10px;
-}
-  
+</body>
+</html>
