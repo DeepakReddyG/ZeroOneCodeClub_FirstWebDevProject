@@ -1,0 +1,6 @@
+html,body{background:#000}
+div {
+  width:1050px !important;
+  height:900px !important;
+  margin:auto;
+}
