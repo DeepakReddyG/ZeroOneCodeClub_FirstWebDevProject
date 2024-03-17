@@ -1,0 +1,63 @@
+/* CSS code goes here */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: auto; /* Center the card horizontally */
+}
+
+
+.card1 {
+    width: 100%;
+}
+
+.card1 img {
+    width: 100%;
+}
+
+.card2 {
+    width: 100%;
+    padding: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border: 2px solid black; /* Add border */
+    border-radius: 10px; /* Add border radius */
+}
+
+.card2 h1 {
+    font-size: 1.5rem;
+}
+
+.card2 h2 {
+    font-size: 1.2rem;
+    color: red;
+}
+
+.card2 h3 {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+    color: red;
+}
+
+.card2 a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    display: inline-block; /* Ensure inline elements can accept padding */
+    border-radius: 5px; /* Add border radius */
+    margin-top: 10px; /* Add some spacing */
+}
