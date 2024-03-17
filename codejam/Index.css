@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Card {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Card-one {
+    width: 100%;
+
+}
+.Card-one img {
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Card-two  {
+    width: 100%;
+    padding: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Card-two h1 {
+    font-size: 1.5rem;
+}
+.Card-two h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: grey;
+}
+
+.Card-two a {
+    text-decoration: none;
+    background-color: black;
+    color: aliceblue;
+    padding: 5px 10px;
+}
