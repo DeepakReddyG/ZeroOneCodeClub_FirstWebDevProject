@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: lightgoldenrodyellow;
 }
 
 .card {
@@ -21,24 +22,28 @@
 .card-one {
     width: 100%;
 }
+
 .card-one img {
     width: 100%;
+    padding: 1rem;
 }
 
 .card-two {
     width: 100%;
     padding: 1rem;
-    
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0,0,0,0.35)0px 5px 15px;
+    background-color: aquamarine;
 }
 
 .card-two h1 {
     font-size: 1.5rem;
+    color: black;
 }
+
 .card-two h2 {
     font-size: 1.2rem;
     margin-bottom: 1rem;
-    color: grey;
+    color: lightslategray;
 }
 
 .card-two a {
@@ -47,4 +52,3 @@
     color: white;
     padding: 5px 10px;
 }
-  
