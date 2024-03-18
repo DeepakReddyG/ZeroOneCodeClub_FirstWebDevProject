@@ -18,6 +18,7 @@
     flex-direction: column;
 }
 
+
 .card-one {
     width: 100%;
 }
@@ -40,7 +41,6 @@
     margin-bottom: 1rem;
     color: grey;
 }
-
 .card-two a {
     text-decoration: none;
     background-color: black;
