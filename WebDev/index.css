@@ -1,30 +1,29 @@
-* {
-   padding:  0;
-   margin: 0;
-   box-sizing:   border-box;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.container {
+.contianer {
     height: 100vh;
     width: 100%;
-
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.card{
-    width: 20% ;
+.card {
+    width: 20%;
     display: flex;
     flex-direction: column;
-
 }
+
 .card-one {
     width: 100%;
 }
+
 .card-one img {
     width: 100%;
-
 }
 
 .card-two {
@@ -39,14 +38,14 @@
 }
 
 .card-two h2 {
-
     font-size: 1.2rem;
-    margin-bottom: 1rem;
-    color: gray;
+    margin-top: 1rem;
+    color: grey;
 }
+
 .card-two a {
     text-decoration: none;
-    background-color: black ;
+    background-color: black;
     color: white;
     padding: 5px 10px;
 }
