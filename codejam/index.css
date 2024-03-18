@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .card{
     width: 20%;
     display: flex;
@@ -19,12 +20,14 @@
     width: 100%;
 
 }
+
 .card-one img{
     width: 100%;
 }
 .card-two{
     width: 100%;
     padding: 1rem;
+
     box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
 }
 .card-two h1{
@@ -33,6 +36,7 @@
 .card-two h2{
     font-size: 1.2rem;
     margin-bottom: 1rem;
+
     color: grey;
 }
 .card-two a{
