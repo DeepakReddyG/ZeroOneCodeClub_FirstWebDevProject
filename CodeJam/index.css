@@ -1,0 +1,207 @@
+</head>
+<body background="wallpaperflare.com_wallpaper (7).jpg">
+ <h1><center>STRESS LEVEL CALCUATORB:</center></h1>
+ <br>
+ <br>
+ <form id="surveyForm" action="redirect.html" method="get">
+ <!-- Stress-related questions -->
+ <label for="stress-1">How often do you experience stress?</label>
+ <select name="stress-1" id="stress-1">
+ <option value="Frequently">Frequently</option>
+ <option value="Sometimes">Sometimes</option>
+ <option value="Not Often">Not Often</option>
+ </select>
+ <!-- Add more survey questions (questions 2 to 10) similarly -->
+ <!-- Question 1 -->
+ <div class="form-control">
+ <div class="heading-field">
+ <h3 class="field-head">On a scale of 1 to 10, how stressed
+are you right now?</h3>
+ </div>
+ <div>
+ <input type="number" class="form-control-input"
+id="question1" name="stress-level" required min="1" max="10">
+ <div class="help-text">1 = Not stressed, 10 = Extremely
+stressed</div>
+ </div>
+ </div>
+
+ <!-- Question 2 -->
+ <div class="form-control">
+ <div class="heading-field">
+ <h3 class "field-head">Do you get enough sleep each
+night?</h3>
+ </div>
+ <div>
+ <label for="enough-sleep-yes" class="input-div">
+ <input type="radio" class="radio" id="enough-sleep-yes"
+name="enough-sleep" value="yes">
+ Yes
+ </label>
+ <label for="enough-sleep-no" class="input-div">
+ <input type="radio" class="radio" id="enough-sleep-no"
+name="enough-sleep" value="no">
+ No
+ </label>
+ </div>
+ </div>
+
+ <!-- Question 3 -->
+ <div class="form-control">
+ <div class="heading-field">
+ <h3 class="field-head">How would you rate your workrelated stress?</h3>
+ </div>
+ <div>
+ <input type="number" class="form-control-input" 
+ id="question3" name="work-related-stress" required min="1"
+max="10">
+ <div class="help-text">1 = Very low, 10 = Very high</div>
+ </div>
+ </div>
+
+ <!-- Question 4 -->
+ <div class="form-control">
+ <div class="heading-field">
+ <h3 class="field-head">Do you engage in regular physical
+activity?</h3>
+ </div>
+ <div>
+ <label for="physical-activity-yes" class="input-div">
+ <input type="radio" class="radio" id="physical-activityyes" name="physical-activity" value="yes">
+ Yes
+ </label>
+ <label for="physical-activity-no" class="input-div">
+ <input type="radio" class="radio" id="physical-activityno" name="physical-activity" value="no">
+ No
+ </label>
+ </div>
+ </div>
+
+ <!-- Question 5 -->
+ <div class="form-control">
+ <div class="heading-field">
+ <h3 class="field-head">Do you have a balanced diet?</h3>
+ </div>
+ <div>
+ <label for="balanced-diet-yes" class="input-div">
+ <input type="radio" class="radio" id="balanced-diet-yes"
+name="balanced-diet" value="yes">
+ Yes
+ </label>
+ <label for="balanced-diet-no" class="input-div">
+ <input type="radio" class="radio" id="balanced-diet-no"
+name="balanced-diet" value="no">
+ No
+ </label>
+ </div>
+ </div>
+
+ <!-- Question 6 -->
+ <div class="form-control">
+ <div class="heading-field">
+ <h3 class="field-head">How often do you experience
+relationship-related stress?</h3>
+ </div>
+ <div>
+ <input type="number" class="form-control-input"
+id="question6" name="relationship-stress" required min="0">
+ <div class="help-text">Enter the number of times per
+week</div>
+ </div>
+ </div>
+
+ <!-- Question 7 -->
+ <div class="form-control">
+ <div class="heading-field">
+ <h3 class="field-head">How would you rate your stress
+related to personal finances?</h3>
+ </div>
+ <div>
+ <input type="number" class="form-control-input"
+id="question7" name="finance-stress" required min="1" max="10">
+ <div class="help-text">1 = Very low, 10 = Very high</div>
+ </div>
+ </div>
+
+ <!-- Question 8 -->
+ <div class="form-control">
+ <div class="heading-field">
+ <h3 class="field-head">Do you have a supportive social
+network?</h3>
+ </div>
+ <div>
+ <label for="supportive-network-yes" class="input-div">
+ <input type="radio" class="radio" id="supportivenetwork-yes" name="supportive-network" value="yes">
+ Yes
+ </label>
+ <label for="supportive-network-no" class="input-div">
+ <input type="radio" class="radio" id="supportivenetwork-no" name="supportive-network" value="no">
+ No
+ </label>
+ </div>
+ </div>
+
+ <!-- Question 9 -->
+ <div class="form-control">
+ <div class="heading-field">
+ <h3 class="field-head">How do you manage and cope with
+stress?</h3>
+ </div>
+ <div>
+ <textarea class="form-control-input" id="question9"
+name="stress-coping" rows="4" required></textarea>
+ </div>
+ </div>
+
+ <!-- Question 10 -->
+ <div class="form-control">
+ <div class="heading-field">
+ <h3 class="field-head">How would you rate your overall
+stress management?</h3>
+ </div>
+ <div>
+ <input type="number" class="form-control-input"
+id="question10" name="stress-management" required min="1"
+max="10">
+ <div class="help-text">1 = Poor, 10 = Excellent</div>
+ </div>
+ </div>
+
+ <!-- Question 1: On a scale of 1 to 10, how stressed are you right
+now? -->
+<div class="form-control">
+ <label for="stress-level">On a scale of 1 to 10, how stressed are
+you right now?</label>
+ <input type="number" class="form-control-input" id="stresslevel" name="stress-2" required min="1" max="10">
+ <div class="help-text">1 = Not stressed, 10 = Extremely
+stressed</div>
+ </div>
+ <!-- Add more survey questions (questions 3 to 10) similarly -->
+ <button type="submit">Submit</button>
+ </form>
+ <script>
+ // JavaScript to redirect to redirect.html with user's responses
+ const form = document.getElementById("surveyForm");
+ form.addEventListener("submit", function(event) {
+ event.preventDefault(); // Prevent the default form submission
+ // Construct the URL with user's responses
+ let url = form.getAttribute("action") + "?"; // Get the form action
+URL
+ // Loop through the form elements and append them to the URL
+ const elements = form.elements;
+ for (let i = 0; i < elements.length; i++) {
+ const element = elements[i];
+ if (element.tagName === "SELECT" || element.tagName ==="INPUT") {
+    const paramName = element.getAttribute("name");
+    const paramValue = element.value;
+    url += paramName + "=" + paramValue + "&";
+    }
+    }
+    // Remove the trailing "&" from the URL
+    url = url.slice(0, -1);
+    // Redirect to the redirect.html page with the user's responses
+    window.location.href = url;
+    });
+    </script>
+   </body>
+   </html>
